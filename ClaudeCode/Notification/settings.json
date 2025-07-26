@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd.exe /c 'D:\\path\\to\\send-notification.bat' 'Claude Code' 'Awaiting your input...'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd.exe /c 'D:\\path\\to\\send-notification.bat' 'Claude Code' 'Completed your task!'"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd.exe /c 'D:\\path\\to\\send-notification.bat' 'Claude Code' 'Compacting your workspace...'"
+          }
+        ]
+      }
+    ]
+  }
+}
