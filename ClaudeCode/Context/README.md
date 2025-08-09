@@ -17,5 +17,7 @@
 ```
 
 Then enter claude code, you will get a status line like this:
+
 `[Model Name] 📁 <current folder name> |⚡️ <git branch name> | Context used: ??.?% (??,???/200,000 tokens)`
+
 ![claude-code-status-line.png](claude-code-status-line.png)
