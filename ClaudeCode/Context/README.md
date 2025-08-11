@@ -4,7 +4,7 @@ NOTE: claude code version >= 1.0.72
 
 1. Download `claude-code-status-line.py` to certain folder, for example: `/path/to/claude-code-status-line.py`
 2. Add execution permission to it: `chmod +x /path/to/claude-code-status-line.py`
-3. Update `~/.claude/setting.json`:
+3. Update `~/.claude/settings.json`:
 
 ```
 {
