@@ -4,7 +4,7 @@ import sys
 import os
 
 # Constant
-CONTEXT_LIMIT = 200000
+CONTEXT_LIMIT = int(200000 * 0.78)  # It seems that CC will automatically trigger /compact when approximately 78% of the context window is utilized
 
 # Read JSON from stdin
 data = json.load(sys.stdin)
